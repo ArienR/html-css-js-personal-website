@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+}
+
+/* @media only screen and (max-width: 1450px) {
+  #projects {
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+
+  .sections-wrapper {
+    padding: 10rem;
+  }
+} */
