@@ -25,9 +25,13 @@ p {
 }
 
 .sections-wrapper {
-  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 2px solid;
+  /* display: flex;
   flex-direction: column;
-  gap: 50px; /* This controls the spacing between the sections */
+  gap: 50px; This controls the spacing between the sections */
 }
 
 /* TRANSITION */
@@ -47,7 +51,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
 }
 
 .nav-links {
@@ -178,9 +182,9 @@ a:hover::after {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 1050px;
-  margin: 0 10rem;
+  /* padding-top: 4vh;
+  height: 1050px; */
+  /* margin: 0 10rem; */
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -195,18 +199,14 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  max-width: 90%;
-  margin: 100px auto;
-  height: 400px;
-}
-
-.section__pic-container img {
-  border-radius: 40%;
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  height: 70vh;
+  border: 2px solid;
+  margin-bottom: 5%;
+  position: relative;
+  /* gap: 2rem; */
+  /* max-width: 90%; */
+  /* margin: 100px auto;
+  height: 400px; */
 }
 
 .section__text {
@@ -230,12 +230,13 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 2%;
 }
 
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   gap: 1rem;
 }
 
@@ -268,13 +269,12 @@ section {
 }
 
 .icon.arrow {
-  position: absolute;
   animation: bounce 1.5s ease-in-out infinite;
 }
 
 #profile .icon.arrow {
   position: absolute;
-  margin-bottom: -600px;
+  bottom: 5%;
 }
 
 /* BUTTONS */
@@ -357,18 +357,18 @@ section {
 
 #about {
   position: relative;
-  height: 700px;
+  /* height: 700px; */
 }
 
 #about .about-containers {
   justify-content: left;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  /* margin-bottom: 2rem;
+  margin-top: 2rem; */
 }
 
 .about-details-container {
@@ -401,26 +401,17 @@ section {
 }
 
 .text-container {
-  font-size: 1.2em; /* Adjust as needed */
-  margin-left: 50px; /* You might want to adjust or remove this based on your layout */
-  padding-bottom: 150px;
-  margin-bottom: 100px;
-  height: 200px; /* Adjust the height as needed */
-  overflow-y: auto; /* This makes the vertical overflow scrollable */
-  padding: 1rem; /* Optional, for internal spacing */
-  border: 1px solid #ccc; /* Optional, just to show the box visually */
-  margin: auto; /* Centering the container */
-  width: 90%; /* Adjust the width as needed */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional, for styling */
-  border-radius: 1rem;
+  font-size: 1.2rem;
+  margin: 40px;
+  height: 250px;
+  /* border: 2px solid; */
+  overflow: scroll;
 }
 
 /* EXPERIENCE */
 
 #experience {
-  margin-top: -100px;
-  margin-bottom: 0;
-  height: 600px;
+  margin-bottom: 5%;
 }
 
 .experience-sub-title {
@@ -458,10 +449,10 @@ article .icon {
 /* PROJECTS */
 
 #projects {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   position: relative;
-  height: 600px;
-  margin-top: -200px;
+  /* height: 600px; */
+  /* margin-top: -200px; */
 }
 
 .color-container {
@@ -518,9 +509,9 @@ article .icon {
 /* CONTACT */
 
 #contact {
-  margin-top: 200px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 300px;
 }
